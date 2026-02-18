@@ -1,6 +1,29 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #000;      /* fundo preto */
+  color: #fff;                 /* letras brancas */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #c40000;   /* vermelho */
+  color: #fff;                 /* texto branco */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff1a1a;   /* vermelho mais vivo no hover */
 }
 
 #cartas {
@@ -13,10 +36,11 @@ body {
 .carta {
   width: 180px;
   min-height: 120px;
-  border: 2px solid black;
+  border: 2px solid white;     /* delineado branco */
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  background-color: white;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  background-color: #111;      /* preto ligeiramente mais claro */
+  color: #fff;                 /* texto branco */
+  box-shadow: 2px 2px 12px rgba(255,255,255,0.1);
 }
