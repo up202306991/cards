@@ -119,5 +119,5 @@ let cartas = [
   { id: "C119", texto: "foder no lavatório da amiga" },
   { id: "C120", texto: "fodemos bué yahhh" },
   { id: "C121", texto: "dry humping" },
-  { id: "C119", texto: "oh merde c'est ma femme" }
+  { id: "C122", texto: "oh merde c'est ma femme" }
 ];
