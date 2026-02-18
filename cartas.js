@@ -9,7 +9,6 @@ const cartasFormatadas = cartas.map(c => {
 console.log(cartasFormatadas);
 let cartas = [
   { id: "C001", texto: "D.Afonso Henriques atacou a mãe porque era um adolescente com problemas" },
-  { id: "C002", texto: "DEUP VULT" },
   { id: "C003", texto: "\"Descoberta\" do Brasil." },
   { id: "C004", texto: "Cabo da Boa Esperança" },
   { id: "C005", texto: "Zé Povinho." },
@@ -29,7 +28,7 @@ let cartas = [
   { id: "C019", texto: "Uma caralhada qualquer" },
   { id: "C020", texto: "o caralho" },
   { id: "C021", texto: "sexo tântrico" },
-  { id: "C022", texto: "Uma pila chia de varizes" },
+  { id: "C022", texto: "Uma pila cheia de varizes" },
   { id: "C023", texto: "Eutanasiar velhos com gripe" },
   { id: "C024", texto: "o corpo sexy de Salazar." },
   { id: "C025", texto: "O fogão do homem do Goucha" },
@@ -125,5 +124,6 @@ let cartas = [
   { id: "C115", texto: "masturbar-se a ver discursos de Salazar" },
   { id: "C116", texto: "Curtir com a irmã gémea da tua namorada" },
   { id: "C117", texto: "cheirar gás durante o duche" },
-  { id: "C118", texto: "casar para poder foder" }
+  { id: "C118", texto: "casar para poder foder" },
+  { id: "C119", texto: "foder no lavatório da amiga" }
 ];
