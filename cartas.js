@@ -1,5 +1,3 @@
-
-console.log(cartasFormatadas);
 let cartas = [
   { id: "C001", texto: "D.Afonso Henriques atacou a mãe porque era um adolescente com problemas" },
   { id: "C003", texto: "\"Descoberta\" do Brasil." },
@@ -120,5 +118,6 @@ let cartas = [
   { id: "C118", texto: "casar para poder foder" },
   { id: "C119", texto: "foder no lavatório da amiga" },
   { id: "C120", texto: "fodemos bué yahhh" },
-  { id: "C121", texto: "dry humping" }
+  { id: "C121", texto: "dry humping" },
+  { id: "C119", texto: "oh merde c'est ma femme" }
 ];
