@@ -29,3 +29,23 @@ function mostrarCartas() {
     container.appendChild(div);
   });
 }
+
+function substituirCarta(idCarta) {
+  // remover a carta atual
+  minhasCartas = minhasCartas.filter(c => c.id !== idCarta);
+
+  // criar lista de cartas ainda disponíveis
+  let usadas = minhasCartas.map(c => c.id);
+  let disponiveis = cartas.filter(c => !usadas.includes(c.id));
+
+  if (disponiveis.length === 0) {
+    alert("Não há mais cartas disponíveis.");
+    return;
+  }
+
+  // escolher nova carta aleatória
+  let index = Math.floor(Math.random() * disponiveis.length);
+  minhasCartas.push(disponiveis[index]);
+
+  mostrarCartas();
+}
