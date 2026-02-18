@@ -24,12 +24,14 @@ function mostrarCartas() {
     div.innerHTML = `
       <strong>${carta.id}</strong>
       <p>${carta.texto}</p>
+      <button onclick="substituirCarta('${carta.id}')">
+        Substituir
+      </button>
     `;
 
     container.appendChild(div);
   });
 }
-
 function substituirCarta(idCarta) {
   // remover a carta atual
   minhasCartas = minhasCartas.filter(c => c.id !== idCarta);
