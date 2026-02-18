@@ -1,3 +1,12 @@
+const cartasFormatadas = cartas.map(c => {
+  let texto = c.texto.trim();
+  texto = texto.charAt(0).toUpperCase() + texto.slice(1);
+  if (!/[.!?]$/.test(texto)) {
+    texto += ".";
+    }
+  return { ...c, texto };
+  });
+console.log(cartasFormatadas);
 let cartas = [
   { id: "C001", texto: "D.Afonso Henriques atacou a mãe porque era um adolescente com problemas" },
   { id: "C002", texto: "DEUP VULT" },
