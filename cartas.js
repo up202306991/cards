@@ -125,5 +125,5 @@ let cartas = [
   { id: "C116", texto: "Curtir com a irmã gémea da tua namorada" },
   { id: "C117", texto: "cheirar gás durante o duche" },
   { id: "C118", texto: "casar para poder foder" },
-  { id: "C119", texto: "foder no lavatório da amiga" }
+  { id: "C119", texto: "foder no lavatório da amiga" },
 ];
